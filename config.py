@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ASIFXQUEEN903/RADHEXMUSICBOT",
+    "https://github.com/ASIFXQUEEN903/RUHANMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "XQUEEN")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SAYRO_KI_MAHFIL")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SAYRO_KI_MAHFIL")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AuraRuhan")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AuraRuhan")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,17 +78,17 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/5z3tfz.mp4"
+    "START_IMG_URL", "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/5z3tfz.mp4"
+    "PING_IMG_URL", "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/jrupn9.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/f8i9s1.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/f8i9s1.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/f8i9s1.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/f8i9s1.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/f8i9s1.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
+STATS_IMG_URL = "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/FqLzX0Vd/ruhan.jpg"
 YOUTUBE_IMG_URL = "https://files.catbox.moe/f8i9s1.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/f8i9s1.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/f8i9s1.jpg"
