@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("28118742"))
+API_HASH = getenv("6a5fc1722bb511ef8fd1c8ad9af68776")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8511095534:AAGXd1_jUey4Uzxu2D3vNpIRNu3vCT25YRQ")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://yaemiko:yaemiko69@cluster0.ojfsgey.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1003516513075", None))
 
 # Get this value from @asifxquwwn on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7221110987))
+OWNER_ID = int(getenv("1854900832", 1854900832))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ASIFXQUEEN903/RUHANMUSIC",
+    "https://github.com/Gojosatoru0602/RUHANMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "XQUEEN")
 GIT_TOKEN = getenv(
